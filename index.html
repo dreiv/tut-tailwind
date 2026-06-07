@@ -7,7 +7,43 @@
     <title>tut-tailwind</title>
   </head>
   <body class="bg-[#101044] text-white">
-    <section class="space-y-5 text-center ma-w-3xl mx-auto px-5 py-12">
+    <header class="mx-auto max-w-3xl px-5 py-3">
+      <nav>
+        <ul
+          class="flex flex-wrap justify-center gap-x-4 gap-y-1 text-sm tracking-wider uppercase sm:justify-between"
+        >
+          <li class="sm:me-auto">
+            <a
+              href=""
+              class="rounded-sm p-1 transition-colors hover:bg-fuchsia-700"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              href=""
+              class="rounded-sm p-1 transition-colors hover:bg-fuchsia-700"
+              >Start Here</a
+            >
+          </li>
+          <li>
+            <a
+              href=""
+              class="rounded-sm p-1 transition-colors hover:bg-fuchsia-700"
+              >Projects</a
+            >
+          </li>
+          <li>
+            <a
+              href=""
+              class="rounded-sm p-1 transition-colors hover:bg-fuchsia-700"
+              >About</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="mx-auto max-w-3xl space-y-5 px-5 py-12 text-center">
       <h1 class="text-4xl font-bold">Let's learn Tailwind!</h1>
       <p class="text-[1.2rem]">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam
@@ -17,7 +53,7 @@
       </p>
       <a
         href=""
-        class="inline-block bg-fuchsia-700 py-3 px-7 rounded-full hover:bg-fuchsia-600 transition-colors"
+        class="inline-block rounded-full bg-fuchsia-700 px-7 py-3 transition-colors hover:bg-fuchsia-600"
         >Click Here</a
       >
     </section>
