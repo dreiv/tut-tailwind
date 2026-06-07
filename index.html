@@ -7,7 +7,7 @@
     <title>tut-tailwind</title>
   </head>
   <body class="bg-[#101044] text-white">
-    <header class="mx-auto max-w-3xl px-5 py-3">
+    <header class="mx-auto max-w-5xl px-5 py-3">
       <nav>
         <ul
           class="flex flex-wrap justify-center gap-x-4 gap-y-1 text-sm tracking-wider uppercase sm:justify-between"
@@ -43,19 +43,31 @@
         </ul>
       </nav>
     </header>
-    <section class="mx-auto max-w-3xl space-y-5 px-5 py-12 text-center">
-      <h1 class="text-4xl font-bold">Let's learn Tailwind!</h1>
-      <p class="text-[1.2rem]">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam
-        repudiandae optio tempore enim laborum, modi odit reiciendis nulla
-        incidunt, vero, iusto labore culpa maiores reprehenderit doloremque quod
-        sequi deserunt dolores?
-      </p>
-      <a
-        href=""
-        class="inline-block rounded-full bg-fuchsia-700 px-7 py-3 transition-colors hover:bg-fuchsia-600"
-        >Click Here</a
-      >
+    <section
+      class="mx-auto grid max-w-3xl items-center gap-5 px-5 py-12 text-center lg:max-w-5xl lg:grid-cols-2"
+    >
+      <img
+        src="/public/waterfall.png"
+        alt="Exotic waterfall and lake landscape of Plitvice Lakes National Park, UNESCO natural world heritage and famous travel destination of Croatia. The lakes are located in central Croatia (Croatia proper)."
+        width="1516"
+        height="723"
+        class="rounded-xl lg:order-2"
+      />
+
+      <div class="space-y-5">
+        <h1 class="text-4xl font-bold">Let's learn Tailwind!</h1>
+        <p class="text-[1.2rem]">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam
+          repudiandae optio tempore enim laborum, modi odit reiciendis nulla
+          incidunt, vero, iusto labore culpa maiores reprehenderit doloremque
+          quod sequi deserunt dolores?
+        </p>
+        <a
+          href=""
+          class="inline-block rounded-full bg-fuchsia-700 px-7 py-3 transition-colors hover:bg-fuchsia-600"
+          >Click Here</a
+        >
+      </div>
     </section>
 
     <script type="module" src="/src/main.ts"></script>
